@@ -133,6 +133,11 @@ img {
 
 }
 
+/* Stats */
+.stats{
+    padding-top: 100px;
+}
+
 /* Utlities*/
 
 .container {
@@ -186,5 +191,9 @@ img {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.grid-3 {
+    grid-template-columns: repeat(3, 1fr); 
 }
 
